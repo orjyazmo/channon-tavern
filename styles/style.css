@@ -1,0 +1,584 @@
+
+.shokudou-header, .whatson, .whatson-day, .contact {
+    font-family: 'Yeseva One', cursive;
+}
+
+.contact-link {
+    text-decoration: underline;
+    color: brown;
+}
+
+
+
+@media only screen and (max-width: 500px) {   
+    body {
+        background-color: rgb(244, 237, 199);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Barlow', sans-serif;
+        /* font-family: 'Yeseva One', cursive; */
+        /* font-family: 'Lato', sans-serif; */
+        /* font-family: 'Permanent Marker', sans-serif; */
+        color: rgb(51, 101, 65);
+        font-size: 210%;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .menu {
+        min-width: 300px;
+    }
+
+    a {
+        color: rgb(51, 101, 65);
+    }
+
+    /* .food-body {
+        background-color: black;
+    } */
+
+    .whatson-day {
+        font-size: 28px;
+    }
+
+    .whatson-day, .accommodation-name {
+        margin-bottom: 5px;
+    }
+    .whatson, .accommodation-details {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .link-header {
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content:space-around;
+        text-decoration: none;
+        font-size: 60%;
+
+    }
+
+    .horizontal-logo {
+        width: 100%;
+        min-width: 400px;
+        max-width: 600px;
+
+    }
+
+    .channon-tav-logo {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hours {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .shokudou-open-hours {
+        font-size: x-large;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .contact-footer {
+        font-size: 60%;
+    }
+
+
+    .tavern-sketch {
+        padding-top: -80px;
+        width: 100%;
+        min-width: 400px;
+        max-width: 1500px;
+        
+    }
+
+    .sashimi, .takoyaki, .menu {
+        width: 60%;
+        max-width: 1000px;
+    }
+    .food-pics {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tavern {
+        font-size: 140%;
+    }
+
+    .open-hours {
+        padding: 2% 4%;
+        font-size: 60%;
+        flex-wrap: wrap;
+    }
+
+    div {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+    .shokudou-introduction {
+        font-size: large;
+        max-width: 1000px;
+        /* text-align: center; */
+    }
+
+    .call-to-action {
+        font-size: 80%;
+    }
+
+    .shokudou-header {
+        flex-direction: row;
+        padding-top: 40px;
+    }
+
+    .coaster-logo {
+        max-width: 150px;
+    }
+
+    .divider {
+        margin: 0px 0px;
+    }
+
+    
+    .link-header a {
+        padding: 0% 
+        2%;
+        font-size: 70%;
+        white-space: nowrap;
+        padding-bottom: 20px;
+        border-bottom-style: solid;
+    }
+
+    .whatson, .whatson-day {
+        font-family: 'Yeseva One', cursive;
+    }
+
+
+    .logo {
+        margin: 5% 0%;
+
+        font-size: 120%;
+        text-align: center;
+        background-color: rgb(244, 237, 199);
+        text-decoration: none;
+    }
+
+    #reverse {
+        background-color: rgb(51, 101, 65);
+        color: rgb(244, 237, 199);
+    }
+
+    .logo div {
+        padding: 0;
+        margin: -20px;
+    }
+
+    a:link { 
+        text-decoration: none; 
+    }
+
+    a:visited { 
+        text-decoration: none; 
+    }
+
+    a:hover { 
+        text-decoration: none; 
+        color: brown;
+    }
+
+    a:active { 
+        text-decoration: underline ;
+        
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 1050px) {   
+    body {
+        background-color: rgb(244, 237, 199);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Barlow', sans-serif;
+        /* font-family: 'Yeseva One', cursive; */
+        /* font-family: 'Lato', sans-serif; */
+        /* font-family: 'Permanent Marker', sans-serif; */
+        color: rgb(51, 101, 65);
+        font-size: 210%;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .menu {
+        min-width: 300px;
+    }
+
+    a {
+        color: rgb(51, 101, 65);
+    }
+
+    /* .food-body {
+        background-color: black;
+    } */
+
+    .whatson-day {
+        font-size: 28px;
+    }
+
+    .whatson-day, .accommodation-name {
+        margin-bottom: 5px;
+    }
+    .whatson, .accommodation-details {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .link-header {
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content:space-around;
+        text-decoration: none;
+        font-size: 120%;
+
+    }
+
+    .horizontal-logo {
+        width: 100%;
+        min-width: 400px;
+        max-width: 600px;
+
+    }
+
+    .channon-tav-logo {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hours {
+        font-size: x-large;
+        margin-top: 10px;
+    }
+
+    .shokudou-open-hours {
+        font-size: xx-large;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .contact-footer {
+        font-size: 80%;
+    }
+
+
+    .tavern-sketch {
+        padding-top: -80px;
+        width: 100%;
+        min-width: 400px;
+        max-width: 1500px;
+        
+    }
+
+    .sashimi, .takoyaki, .menu {
+        width: 60%;
+        max-width: 1000px;
+    }
+    .food-pics {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tavern {
+        font-size: 140%;
+    }
+
+    .open-hours {
+        padding: 2% 4%;
+        font-size: 100%;
+        flex-wrap: wrap;
+    }
+
+    div {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+    .shokudou-introduction {
+        font-size: large;
+        max-width: 1000px;
+        /* text-align: center; */
+    }
+
+    .call-to-action {
+        font-size: 80%;
+    }
+
+    .shokudou-header {
+        flex-direction: row;
+        padding-top: 20px;
+    }
+
+    .coaster-logo {
+        max-width: 150px;
+    }
+
+    .divider {
+        margin: 0px 0px;
+    }
+
+    
+    .link-header a {
+        padding: 0% 
+        2%;
+        font-size: 60%;
+        white-space: nowrap;
+        padding-bottom: 20px;
+        border-bottom-style: solid;
+    }
+
+    .logo {
+        margin: 5% 0%;
+
+        font-size: 120%;
+        text-align: center;
+        background-color: rgb(244, 237, 199);
+        text-decoration: none;
+    }
+
+    #reverse {
+        background-color: rgb(51, 101, 65);
+        color: rgb(244, 237, 199);
+    }
+
+    .logo div {
+        padding: 0;
+        margin: -20px;
+    }
+
+    .whatson, .whatson-day {
+        font-family: 'Yeseva One', cursive;
+    }
+
+
+    a:link { 
+        text-decoration: none; 
+    }
+
+    a:visited { 
+        text-decoration: none; 
+    }
+
+    a:hover { 
+        text-decoration: none; 
+        color: brown;
+    }
+
+    a:active { 
+        text-decoration: underline ;
+        
+    }
+}
+
+@media only screen and (min-width:1050px) {   
+    body {
+        background-color: rgb(244, 237, 199);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Barlow', sans-serif;
+        /* font-family: 'Yeseva One', cursive; */
+        /* font-family: 'Lato', sans-serif; */
+        /* font-family: 'Permanent Marker', sans-serif; */
+        color: rgb(51, 101, 65);
+        font-size: 210%;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .menu {
+        min-width: 300px;
+    }
+
+    a {
+        color: rgb(51, 101, 65);
+    }
+
+    /* .food-body {
+        background-color: black;
+    } */
+
+
+    .whatson-day {
+        font-size: 28px;
+    }
+
+    .whatson-day, .accommodation-name {
+        margin-bottom: 5px;
+    }
+    .whatson, .accommodation-details {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .link-header {
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content:space-around;
+        text-decoration: none;
+        font-size: 140%;
+
+    }
+
+    .horizontal-logo {
+        width: 100%;
+        min-width: 400px;
+        max-width: 600px;
+
+    }
+
+    .channon-tav-logo {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hours {
+        font-size: x-large;
+        margin-top: 10px;
+    }
+
+    .shokudou-open-hours {
+        font-size: xx-large;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .contact-footer {
+        font-size: 80%;
+    }
+
+
+    .tavern-sketch {
+        padding-top: -80px;
+        width: 100%;
+        min-width: 400px;
+        max-width: 1500px;
+        
+    }
+
+    .sashimi, .takoyaki, .menu {
+        width: 60%;
+        max-width: 1000px;
+    }
+    .food-pics {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tavern {
+        font-size: 140%;
+    }
+
+    .open-hours {
+        padding: 2% 4%;
+        font-size: 100%;
+        flex-wrap: wrap;
+    }
+
+    div {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+    .shokudou-introduction {
+        font-size: large;
+        max-width: 1000px;
+        /* text-align: center; */
+    }
+
+    .call-to-action {
+        font-size: 80%;
+    }
+
+    .shokudou-header {
+        flex-direction: row;
+        padding-top: 20px;
+    }
+
+    .coaster-logo {
+        max-width: 400px;
+    }
+
+    .divider {
+        margin: 0px 0px;
+    }
+
+    
+    .link-header a {
+        padding: 0% 
+        2%;
+        font-size: 25px;
+        white-space: nowrap;
+        padding-bottom: 20px;
+        border-bottom-style: solid;
+    }
+
+    .logo {
+        margin: 5% 0%;
+
+        font-size: 120%;
+        text-align: center;
+        background-color: rgb(244, 237, 199);
+        text-decoration: none;
+    }
+
+    #reverse {
+        background-color: rgb(51, 101, 65);
+        color: rgb(244, 237, 199);
+    }
+
+    .logo div {
+        padding: 0;
+        margin: -20px;
+    }
+
+    a:link { 
+        text-decoration: none; 
+    }
+
+    a:visited { 
+        text-decoration: none; 
+    }
+
+    a:hover { 
+        text-decoration: none; 
+        color: brown;
+    }
+
+    a:active { 
+        text-decoration: underline ;
+        
+    }
+}
