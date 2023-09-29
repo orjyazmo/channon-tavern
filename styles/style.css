@@ -26,6 +26,7 @@
 
 .menu-title-container {
     display: block;
+    text-align: left;
 }
 
 .menu-item-description {
@@ -623,8 +624,7 @@
     }
 
     a:active { 
-        text-decoration: underline ;
-        
+        text-decoration: underline ;     
     }
 
     .menu-item {
@@ -644,6 +644,14 @@
 
     .menu-item-price {
         font-size: 22px;
+    }
+
+    .dietary-category {
+        font-size: 12px;
+    }
+
+    .menu-category {
+        padding-top: 20px;
     }
     
 }
