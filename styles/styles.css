@@ -148,9 +148,11 @@
         width: 60%;
         max-width: 1000px;
     }
+
     .food-pics {
         justify-content: center;
         align-items: center;
+        max-width: 290px;
     }
 
     .tavern {
@@ -377,6 +379,7 @@
     .food-pics {
         justify-content: center;
         align-items: center;
+        max-width: 500px;
     }
 
     .tavern {
@@ -599,6 +602,7 @@
     .food-pics {
         justify-content: center;
         align-items: center;
+        max-width: 800px;
     }
 
     .tavern {
